@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AmcarFiguras</title>
+</head>
+<fieldset><body style="background:#96E1E7;color:black">
+	<legend><h1>Proceso de facturado.</h1></legend>
+	<form action="proceder.php" method="post">
+	    Costo del producto<input type="number" name="costo" placeholder="precio" required><br><br>
+		Cantidad a llevar<input type="number" name="cantidad" placeholder="candidad" required><br><br>
+		
+
+		Modo de pago
+		<select name="operacion">
+			<option value="nada">      </option>
+			<option value="Debito">Debito</option>
+			<option value="Credito">Credito</option>
+		
+		<input type="submit" name="guardar" value="guardar"><br>
+		</fieldset>
+
+	</form>
+
+</body>
+</html>
